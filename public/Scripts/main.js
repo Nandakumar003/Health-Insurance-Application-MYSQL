@@ -34,7 +34,6 @@ function getCurrentUser() {
 
 function removeUser() {
   localStorage.removeItem('user')
-  localStorage.removeItem('tempuser')
   window.location.href = 'index.html'
 }
 
